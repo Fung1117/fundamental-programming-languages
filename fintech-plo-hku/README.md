@@ -1,5 +1,7 @@
 # Programme PLO-HKU Relationship
 This repository contains a webpage that presents the relationship between the Programme Learning Outcomes (PLO) and HKU Educational Aims for an undergraduate program. The webpage is designed to have a responsive layout and appropriate styling using only pure HTML and CSS. No front-end libraries such as Bootstrap or JavaScript are allowed for this assignment.
+# ScreenShot
+
 # Requirements
 The webpage should present the relationship between the Programme Learning Outcomes and HKU Educational Aims for the BASc(FinTech) program. You can find a copy of the table in MS Word format on the Moodle site.
 
