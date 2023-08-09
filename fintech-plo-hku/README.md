@@ -20,8 +20,8 @@ To view the webpage, simply open the index.html file in a web browser. The webpa
 # ScreenShot
 viewed on a wide screen
 
-<img src="Screenshot/Normal.png" alt="Screenshot">
+<img src="screenshot/normal.png" alt="Screenshot">
 
 viewed on a mobile screen
 
-<img src="Screenshot/Responsive.png" alt="Screenshot" height="550">
+<img src="screenshot/responsive.png" alt="Screenshot" height="550">
