@@ -19,7 +19,3 @@ It provides details about departure and arrival flights for the current calendar
 - Hong Kong Airport Open Data API
 - AJAX/Fetch
 - Responsive design
-
-### Files
-- index.html - Main web app page
-- styles.css - CSS styling
