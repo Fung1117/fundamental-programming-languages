@@ -16,6 +16,5 @@ It provides details about departure and arrival flights for the current calendar
 ### Technologies
 - Vanilla JavaScript (no libraries)
 - HTML/CSS
-- Hong Kong Airport Open Data API
 - AJAX/Fetch
 - Responsive design
