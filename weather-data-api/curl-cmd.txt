@@ -1,0 +1,21 @@
+#####Send POST request
+
+#Windows powershell
+curl --version after 7.82.0
+curl.exe --json '{\"meanT\":15,\"maxT\":18,\"minT\":13.2,\"humidity\":65,\"rain\":0}' http://localhost:8000/weather/2022/12/12 -i
+
+curl --version before 7.82.0
+curl.exe --header "Content-Type: application/json" --request POST --data '{\"meanT\":15,\"maxT\":18,\"minT\":13.2,\"humidity\":65,\"rain\":0}' http://localhost:8000/2022/12/12 -i
+
+#WSL terminal
+curl --version before 7.82.0
+curl --header "Content-Type: application/json" --request POST --data '{"meanT":15,"maxT":18,"minT":13.2,"humidity":65,"rain":0}' http://localhost:8000/weather/2022/12/12 -i
+
+#MacOS terminal
+curl --json '{"meanT":15,"maxT":18,"minT":13.2,"humidity":65,"rain":0}' http://localhost:8000/weather/2022/12/12 -i
+
+#####Send DELETE request
+#Windows powershell
+curl.exe --request DELETE http://localhost:8000/weather/2022/08/10 -i
+#WSL or MacOS
+curl --request DELETE http://localhost:8000/weather/2022/08/10 -i
