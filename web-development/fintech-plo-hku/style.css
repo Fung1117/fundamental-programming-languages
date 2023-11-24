@@ -1,0 +1,86 @@
+table{
+    border-spacing: 0;
+    empty-cells: hide; 
+    width: 100%;
+}
+
+th, td{
+    border: 1px solid #c6f6c6;
+}
+
+#Aim{
+    height: 60px;
+    font-size: x-large;
+    text-align: center;
+    background-color: #c7f6c7;
+}
+
+.Aim{
+    width: 125px;
+    vertical-align: top;
+    text-align: left;
+    background-color: #f4fdf4;
+}
+
+.tic{
+    text-align: center;
+    color: #5eb0ff;
+}
+
+#PLO{
+    width: 60px;
+    height: 415px;
+    font-size: x-large;
+    text-align: center;
+    background-color: #c7f6c7;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+
+.PLO{
+    width: 60px;
+    height: 41.5px;
+    text-align: center;
+    background-color: #f4fdf4;
+}
+
+
+@media screen and (max-width: 900px) { 
+    .Aim, #nothing, .useless{
+        display: none;
+    }
+
+    td, .PLO, #Aim {
+        display: grid;
+        width: 100%;
+        align-items: center;
+    }
+
+    #PLO {
+        width: 100%;
+        height: 41.5px;
+        font-size: x-large;
+        text-align: center;
+        background-color: #f4fdf4;
+        writing-mode: unset;
+        transform: unset;
+    }
+
+    .PLO {
+        justify-content: center;
+        background-color: #c7f6c7;
+    }
+
+    .tic {
+        text-align: right;
+    }
+
+    .tic::before {
+        content: attr(data-label);
+        color: black;
+        text-align: left;
+        left: 0;
+        width: 75%;
+        font-weight: bold;
+    }
+}
