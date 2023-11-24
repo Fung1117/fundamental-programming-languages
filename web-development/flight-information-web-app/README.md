@@ -2,6 +2,8 @@
 This web app is designed to display real-time flight information from Hong Kong Airport using their open data API. 
 It provides details about departure and arrival flights for the current calendar date. The app is built using Vanilla JavaScript, HTML, and CSS, without relying on any external libraries.
 
+https://github.com/Fung1117/web-development/assets/99673664/60d3b858-42e4-40b2-aa94-505f06562bbb
+
 ### Features
 - Retrieve flight data from Hong Kong Airport API using AJAX/Fetch
 - Display departure and arrival flight information
