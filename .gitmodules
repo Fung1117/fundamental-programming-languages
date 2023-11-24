@@ -1,0 +1,6 @@
+[submodule "cpp-projects"]
+	path = cpp-projects
+	url = https://github.com/Fung1117/cpp-projects.git
+[submodule "java-projects"]
+	path = java-projects
+	url = https://github.com/Fung1117/java-projects.git
