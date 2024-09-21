@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: facde6f26811b47499f1f05e21f7cb0f, type: 3}
+  m_Name: Empty Projectile Ability
+  m_EditorClassIdentifier: 
+  abilityManager: {fileID: 0}
+  onActivate: []
+  projectile: {fileID: 5340235894646282466, guid: 8879e61c07393d74c8e3dd171649fa54,
+    type: 3}
+  target: 1
+  aimAtPlayerOnStart: 0
+  baseDamage: 35
+  ignoreFacingDireciton: 0
+  degree: 0
+  positionOffset: {x: 0, y: 0.84}

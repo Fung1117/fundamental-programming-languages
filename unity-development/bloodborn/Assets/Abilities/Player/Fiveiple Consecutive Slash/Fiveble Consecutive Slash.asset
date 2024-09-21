@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7d6fe413c385674ca18a4bfe76db466, type: 3}
+  m_Name: Fiveble Consecutive Slash
+  m_EditorClassIdentifier: 
+  abilityManager: {fileID: 0}
+  onActivate:
+  - {fileID: 11400000, guid: 4ea37a7a579eac24ba5e8f146df18308, type: 2}
+  - {fileID: 11400000, guid: 131fbf175f8d3694eb6551010f01f855, type: 2}
+  - {fileID: 11400000, guid: a101483d87742f94aac4392e4fce32ed, type: 2}
+  - {fileID: 11400000, guid: 1cd8550e2b98cc34c9c0d31acf519b85, type: 2}
+  - {fileID: 11400000, guid: dce630f9b4bfd3e49833971f53cdbf1d, type: 2}
+  abilityName: Triple Consecutive Slash
+  abilityIcon: {fileID: 0}
+  isActiveAbility: 1
+  bloodPointRequired: 0
+  hasCoolDown: 0
+  cooldown: 1.5
+  clip:
+    _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: fbca44b94153f1148b70435d97c1ff90, type: 2}
+    _Speed: 1
+    _NormalizedStartTime: NaN

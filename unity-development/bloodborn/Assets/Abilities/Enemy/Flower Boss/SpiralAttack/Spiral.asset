@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7d6fe413c385674ca18a4bfe76db466, type: 3}
+  m_Name: Spiral
+  m_EditorClassIdentifier: 
+  abilityManager: {fileID: 0}
+  onActivate:
+  - {fileID: 11400000, guid: b43f886039fd7024882ebff76936f74d, type: 2}
+  - {fileID: 11400000, guid: 47c8df8b8b6cbb6439ac7ec4bd0bb142, type: 2}
+  abilityName: Ability Name
+  abilityIcon: {fileID: 0}
+  isActiveAbility: 1
+  bloodPointRequired: 0
+  hasCoolDown: 0
+  cooldown: 5
+  clip:
+    _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: cdd4452def28ec74b9197551426990ee, type: 2}
+    _Speed: 1
+    _NormalizedStartTime: NaN

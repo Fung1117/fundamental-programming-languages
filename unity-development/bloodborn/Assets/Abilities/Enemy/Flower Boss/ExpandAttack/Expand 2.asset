@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 037404271799e5b4f925b192ce91c431, type: 3}
+  m_Name: Expand 2
+  m_EditorClassIdentifier: 
+  abilityManager: {fileID: 0}
+  onActivate: []
+  projectile: {fileID: 5340235894646282466, guid: c1aabf5ff1519fe4eace2942f50a55f3,
+    type: 3}
+  target: 2
+  baseDamage: 12
+  ignoreFacingDireciton: 0
+  amount: 16
+  spawnDelay: 0
+  positionOffset: {x: 3.4, y: 2.3}
