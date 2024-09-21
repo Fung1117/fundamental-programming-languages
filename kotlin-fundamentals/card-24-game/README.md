@@ -1,5 +1,5 @@
 # Card 24 Game
-![Card 24 Game](kotlin-fundamentals\card-24-game\Card-24-Game.png)
+![Card 24 Game](Card-24-Game.png)
 
 This project is a Kotlin implementation of the Card 24 Game. The objective of the game is to manipulate four cards so that the end result is 24.
 
