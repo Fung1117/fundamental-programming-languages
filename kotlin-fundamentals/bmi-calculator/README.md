@@ -1,6 +1,6 @@
 # BMI Calculator
 
-![BMI Calculator](kotlin-fundamentals\bmi-calculator\BMI.png)
+![BMI Calculator](BMI.png)
 
 This is a simple BMI (Body Mass Index) calculator written in Kotlin. It allows users to input their weight and height to calculate their BMI.
 
